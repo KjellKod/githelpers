@@ -44,10 +44,8 @@ Breaks down as follows:
 $: the prompt symbol.
 ```
 
-   The following example looks good on a darker background (color aliases are defined in `colors`):
+   ~~The following example looks good on a darker background (color aliases are defined in `colors`):~~
+    ~~PS1="${YELLOW}%n@%m ${RESET}%1~ ${CYAN}\$(__git_ps1 '(%s) ')${RESET}\$ "~~
 
-    ```zsh
-    PS1="${YELLOW}%n@%m ${RESET}%1~ ${CYAN}\$(__git_ps1 '(%s) ')${RESET}\$ "
-    ```
 
    If you already have your PS1 set up the way you like it, the important thing is to add `${CYAN}\$(__git_ps1 '(%s) ')${RESET}` somewhere inside it.
