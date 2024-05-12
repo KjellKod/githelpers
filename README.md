@@ -26,7 +26,7 @@ See gitconfig file for useful commands
 4. Update your Zsh profile (~/.zshrc) to include the init.sh script from this repo:
 
     ```zsh
-    echo 'source ~/githelpers/test.sh' >> ~/.zshrc
+    echo 'source ~/githelpers/zsh_setup.sh' >> ~/.zshrc
     ```
 
 5. Optionally, enhance your prompt by including information about the repository that is checked out (e.g., branch, modifications, etc.). 
